@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Kalvi Academy logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f5eff"/>
+      <stop offset="1" stop-color="#6e3cf0"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd45a"/>
+      <stop offset="1" stop-color="#ffb703"/>
+    </linearGradient>
+    <clipPath id="r"><rect x="8" y="8" width="240" height="240" rx="60"/></clipPath>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="60" fill="url(#bg)"/>
+  <!-- soft highlight -->
+  <circle cx="205" cy="45" r="70" fill="#fff" opacity=".08" clip-path="url(#r)"/>
+  <!-- graduation cap: base band -->
+  <path d="M82 112 L128 134 L174 112 L174 148 Q128 174 82 148 Z" fill="#fff" opacity=".78"/>
+  <!-- graduation cap: board -->
+  <path d="M128 52 L214 92 L128 132 L42 92 Z" fill="#fff"/>
+  <!-- tassel -->
+  <path d="M206 96 L206 140" stroke="#ffb703" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <circle cx="206" cy="148" r="9" fill="url(#gold)"/>
+  <!-- open book -->
+  <path d="M128 182 Q92 166 52 174 L52 212 Q92 204 128 220 Z" fill="url(#gold)"/>
+  <path d="M128 182 Q164 166 204 174 L204 212 Q164 204 128 220 Z" fill="url(#gold)" opacity=".88"/>
+  <path d="M128 184 L128 218" stroke="#6e3cf0" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+</svg>

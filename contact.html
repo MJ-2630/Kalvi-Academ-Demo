@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact · Kalvi Academy</title>
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="contact">
+    <header class="top"><div class="wrap" id="nav"></div></header>
+    <main id="app"></main>
+
+    <footer class="foot">
+      <div class="wrap">
+        <div class="fgrid">
+          <div class="fcol">
+            <button class="brand" data-act="nav" data-v="home"><img class="logo" src="assets/logo.png" alt="Kalvi Academy logo" width="36" height="36"><span>Kalvi Academy</span></button>
+            <p>
+              Practical video and PDF courses from working professionals. Learn at your own pace and
+              track every lesson.
+            </p>
+            <form class="sub" data-form="subscribe">
+              <input
+                id="sb"
+                type="email"
+                placeholder="Your email"
+                required
+                aria-label="Email for course updates"
+              /><button class="btn hi sm" type="submit">Subscribe</button>
+            </form>
+          </div>
+          <div class="fcol">
+            <h4>Explore</h4>
+            <button data-act="nav" data-v="home">Home</button>
+            <button data-act="nav" data-v="about">About us</button>
+            <button data-act="nav" data-v="courses">Courses</button>
+            <button data-act="nav" data-v="contact">Contact</button>
+          </div>
+          <div class="fcol">
+            <h4>Learn</h4>
+            <button data-act="gofilter" data-v="all">All courses</button>
+            <button data-act="gofilter" data-v="free">Free courses</button>
+            <button data-act="gofilter" data-v="paid">Paid courses</button>
+            <button data-act="gocat" data-v="Maths">School subjects</button>
+            <button data-act="nav" data-v="register">Become an instructor</button>
+          </div>
+          <div class="fcol">
+            <h4>Contact</h4>
+            <span class="mono">hello@kalviacademy.in</span>
+            <span class="mono">+91 98765 43210</span>
+            <span class="mono">Chennai, Tamil Nadu, India</span>
+          </div>
+        </div>
+        <div class="fbar">
+          <span>© 2026 Kalvi Academy. All rights reserved.</span
+          ><span>Learn. Finish. Move ahead.</span>
+        </div>
+      </div>
+    </footer>
+
+    <div id="modal" hidden></div>
+    <div id="toast" class="toast" hidden></div>
+    <script src="js/core.js"></script>
+    <script src="js/pages/contact.js"></script>
+    <script src="js/shell.js"></script>
+  </body>
+</html>
